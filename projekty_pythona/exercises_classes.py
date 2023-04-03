@@ -26,6 +26,9 @@ restaurant = Restaurant('złote gęsi','polska',10)
 restaurant.describe_restaurant() 
 restaurant.open_restaurant()
 
+
+# Ćw 9.2 Trzy restauracje
+
 # Utworzenie 3 nowych egzemplarzy 
 
 restaurant1 = Restaurant('małe strusie','grecka',8) 
@@ -41,4 +44,32 @@ restaurant2.describe_restaurant()
 restaurant2.open_restaurant()
 
 restaurant3.describe_restaurant()
-restaurant3.open_restaurant()       
+restaurant3.open_restaurant()      
+
+# Ćw 9.3 Użytkownicy 
+
+class User(): 
+    def __init__(self,first_name,last_name,age,height):
+        self.first_name = first_name
+        self.last_name = last_name
+        self.age = age
+        self.height = height
+    def describe_user(self):
+        """Metoda wyświetlająca informacje na temat użytkownika."""    
+        user_info = f"Użytkowik to: {self.first_name.title()} {self.last_name.title()}, wiek :{self.age}, wzrost: {self.height}"
+        print(user_info)
+    
+    def greet_user(self):
+        """Metoda generująca spersonalizowane powitanie dla każdego użytkownika.""" 
+        print(f"Witaj, {self.first_name.title()} :)")   
+        
+
+user1 = User('kamil','kwiek',22,180)   
+user1.describe_user()
+
+user2 = User('anna','nowak',19,160)    
+user2.describe_user()
+
+# Powitanie każdego użytkownika unikalnie:
+user1.greet_user()
+user2.greet_user()
