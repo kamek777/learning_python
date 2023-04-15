@@ -34,7 +34,7 @@ def count_words(filename):
         with open(filename, encoding = 'utf-8') as f:
                 contents = f.read()
     except FileNotFoundError:
-        print("Podany plik {filename} nie istnieje!")            
+        pass            
     else:
         words = contents.split()
         num_words = len(words)
@@ -42,6 +42,21 @@ def count_words(filename):
 
 for filename in filenames:
     count_words(filename)
+    
+
+# Ćw 10.9. Ciche koty i psy 
+# dodanie pass
+
+# Ćw 10.10. Najczęściej występujące słowa
+
+filename1 = 'pliki_tekstowe/alice.txt' 
+with open(filename1, encoding='utf-8') as f:
+    contents = f.read()
+      
+print(contents.lower().count('w'))
+
+
+
     
         
            
