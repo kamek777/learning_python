@@ -1,1 +1,2 @@
-This is my little place, where I am putting my everyday's exercises from programmer's books :)
+# DESCRIPTION
+This is the folder where I practice my Python skills using the books "Python Crash Course" by Eric Matthes and "Effective Python" by Brett Slatkin :)
