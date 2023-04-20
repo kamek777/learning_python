@@ -22,6 +22,7 @@ class AnonymousSurvey():
     
     def store_response(self,new_response):
         """Przechowuje pojedynczą odpowiedź na pytanie z ankiety."""
+        self.responses.append(new_response)
         
     def show_results(self):
         """Wyświetla wszystkie udzielone odpowiedzi."""
