@@ -12,4 +12,5 @@ ax.set_ylabel("Kwadraty wartości",fontsize=24)
 #Zdefiniowanie wielkości etykiet.
 ax.tick_params(axis='both',labelsize=14)
 
+#Pokazanie wykresu
 plt.show()
