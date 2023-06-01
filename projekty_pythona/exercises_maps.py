@@ -18,4 +18,5 @@ ax.set_ylabel("Sześciany liczb",fontsize=14)
 #Zdefiniowanie wielkości etykiet
 ax.tick_params(axis='both',which='major',labelsize=14)
 
+#Pokazanie wykresu
 plt.show()
