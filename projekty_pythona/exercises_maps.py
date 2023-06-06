@@ -3,6 +3,7 @@
 #Ćw 15.1. Sześciany
 
 #Importujemy potrzebną bibliotekę
+
 import matplotlib.pyplot as plt
 
 x_values = range(50001)
