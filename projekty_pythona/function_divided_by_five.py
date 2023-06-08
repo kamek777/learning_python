@@ -7,6 +7,5 @@ def divided_by_five(lista):
             return 0
     return count
         
-    
 nowa_lista = [5,10,23,33,99]
 print(divided_by_five(nowa_lista))
