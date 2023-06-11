@@ -1,3 +1,4 @@
+#Zdefiniowanie funkcji
 def divided_by_five(lista):
     count = 0 
     for element in lista:
