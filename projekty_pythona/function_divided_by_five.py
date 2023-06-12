@@ -8,6 +8,7 @@ def divided_by_five(lista):
             return 0
     return count
         
+
 #Stworzenie nowej listy
 nowa_lista = [5,10,23,33,99]
 
