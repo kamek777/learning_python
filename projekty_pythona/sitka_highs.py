@@ -26,4 +26,5 @@ ax.set_tilte("Najwyższa temperatura dnia, lipiec 2018", fontsize=24)
 ax.set_xlabel("", fontsize=16)
 ax.set_ylabel(axis='both',which='major', fontsize=16)
 
+#Wyświetlenie wykresu
 plt.show()
