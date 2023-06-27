@@ -13,6 +13,7 @@ with open(filename) as f:
     for row in reader:
         high = int(row[5])
         highs.append(highs)
+    
     print(highs)
     
 #Dane wykresu
