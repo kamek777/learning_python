@@ -3,24 +3,21 @@
 # Ćw 8.9 Komunikaty
 
 # Tworzymy listę
-
 komunikaty = ['cześć','witam','halo','ej']
 komunikaty1 = komunikaty[:]
-# Tworzymy funkcję:
 
+# Tworzymy funkcję:
 def show_messages(messages):
     for message in messages:
         print(f"Oto nastepujący komunikat:{message.title()},")
         
 # Wyświetlamy funkcję
-
 show_messages(komunikaty)
     
     
 # Ćw 8.10 Wysyłanie komunikatów
 
 # Tworzymy pustą listę
-
 sent_messages = []
 
 def send_messages(messages):
