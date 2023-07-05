@@ -22,7 +22,6 @@ def make_album(zespol_wykonawca,tytul_albumu,liczby_utworow=None):
 
 
 # Stworzenie 3 słowników:
-
 first = make_album('paktofonika','jestem bogiem')
 second = make_album('nirvana','kwiatki') 
 third = make_album('piotr kubicha', 'szalenstwo')  
