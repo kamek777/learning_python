@@ -27,13 +27,11 @@ second = make_album('nirvana','kwiatki')
 third = make_album('piotr kubicha', 'szalenstwo')  
 
 # Przedstawienie słowników:
-
 print(first)
 print(second)
 print(third)  
 
-# Utworzeni czwartego słownika z dodatkiem liczby plyt:
-
+# Utworzenie czwartego słownika z dodatkiem liczby plyt:
 fourth = make_album('coldplay','paradise',liczby_utworow=3)
 print(fourth)
 
