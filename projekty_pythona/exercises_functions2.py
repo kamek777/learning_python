@@ -12,7 +12,6 @@ print(city_country('london','england'))
   
   
 # Ćw 8.7 Album   
-
 def make_album(zespol_wykonawca,tytul_albumu,liczby_utworow=None):
     album = {'zespol/wykonawca': zespol_wykonawca, 'tytul': tytul_albumu}
     if liczby_utworow:
