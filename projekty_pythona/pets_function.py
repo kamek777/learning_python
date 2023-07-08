@@ -6,11 +6,9 @@ def describe_pet(animal_type,pet_name):
     print(f"Mój {animal_type} ma na imię {pet_name.title()}.")
 
 # Wywołanie funkcji 
-
 describe_pet('kot','ksawery')    
 
 # Wiele wywołań funkcji 
-
 describe_pet('pies','korneliusz')
 describe_pet('jaszczurka','tomek')    
     
