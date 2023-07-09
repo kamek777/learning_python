@@ -32,5 +32,4 @@ def describe_pet3(pet_name,animal_type='pies'):
 
 describe_pet3(pet_name='willie')    
 describe_pet3('kornelia')
-
 # Wartości domyślne na samym końcu!!!
