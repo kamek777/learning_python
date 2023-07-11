@@ -14,7 +14,6 @@ describe_pet('jaszczurka','tomek')
     
 
 # Argumenty w postaci słów kluczowych 
-
 def describe_pet2(animal_type,pet_name):
     """ Wyświetla informacje o zwierzęciu"""
     print(f"\nMoje zwierzę to {animal_type}.")
@@ -24,7 +23,6 @@ describe_pet2(animal_type='chomik',pet_name='harry')
 
 
 # Wartości domyślne w funkcjach
-
 def describe_pet3(pet_name,animal_type='pies'):
     """ Wyświetla informacje o zwierzęciu z wartością domyślną pies"""
     print(f"\nMoje zwierzę to {animal_type}.")
