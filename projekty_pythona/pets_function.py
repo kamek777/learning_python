@@ -1,5 +1,4 @@
 # Argumenty pozycyjne 
-
 def describe_pet(animal_type,pet_name):
     """Wyświetla informacje o zwierzęciu"""
     print(f"\nMoje zwierzę to: {animal_type}.")
