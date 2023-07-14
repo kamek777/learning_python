@@ -1,5 +1,3 @@
-
-
 filename = 'pliki_tekstowe/pi_digits.txt'
 
 with open(filename) as file_object:
