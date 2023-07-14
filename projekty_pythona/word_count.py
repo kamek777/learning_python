@@ -1,5 +1,4 @@
 # Plik z funkcją zliczającą słowa w książkach
-
 def count_word(filename):
     """Obliczenie przybliżonej liczby słów w danym pliku."""
     try:
