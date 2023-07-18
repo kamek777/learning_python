@@ -17,6 +17,5 @@ def build_person1(first_name,last_name,age=None):
     return person
 
 # Wywołanie funckji 
-
 player = build_person1('michael','jordan', age = 48)
 print(player)
