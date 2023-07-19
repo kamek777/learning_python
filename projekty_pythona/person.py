@@ -1,5 +1,4 @@
 # Zwrot słownika w funkcjach
-
 def build_person(first_name,last_name):
     """ Zwraca słownik informacji o danej osobie"""
     person = {'first': first_name.title(), 'last': last_name.title()}
