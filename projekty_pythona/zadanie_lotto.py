@@ -10,6 +10,7 @@ flaga = True
 zliczenia = 0
 print(zbior_kupon1)
 
+#Tworzymy pętlę
 while flaga:
     zliczenia += 1
     for i in range(1, 4):
