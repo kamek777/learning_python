@@ -6,6 +6,7 @@ kupon1 = [5, 3, 2, 1, 'k', 'l']
 zbior_kupon1 = []
 my_ticket = [1, 3, 'k']
 
+#Ustawiamy flagę
 flaga = True
 zliczenia = 0
 print(zbior_kupon1)
