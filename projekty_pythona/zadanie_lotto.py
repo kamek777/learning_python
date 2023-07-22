@@ -1,4 +1,5 @@
 #Importujemy potrzebne biblioteki
+
 from random import randint
 from random import choice
 
