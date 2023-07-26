@@ -1,5 +1,6 @@
 from random import choice
 
+#Tworzymy klasę do generowania błądzenia losowego
 class RandomWalk():
     """Klasa przeznaczona do wygenerowania błądzenia losowego."""
     
