@@ -1,5 +1,4 @@
 # Używanie dowolnej liczby argumentów w postaci słów kluczowych
-
 def build_profile(first, last, **user_info):
     """Budowa słownika zawierającego wszelkie informacje o użytkowniku"""
     user_info['first_name'] = first
