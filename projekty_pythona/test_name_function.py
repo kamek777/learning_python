@@ -1,4 +1,3 @@
-# Testowanie funkcji modułem unittest
 
 import unittest
 
