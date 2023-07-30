@@ -1,7 +1,6 @@
 # Iteracja przez słowniki
 
 # Tworzymy losowy słownik
-
 user_0 = {
 	'username': 'kamil007',
 	'first': 'Kamil',
