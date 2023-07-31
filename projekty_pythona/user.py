@@ -8,7 +8,6 @@ user_0 = {
 }
 
 # Iterujemy przy użyciu pętli for
-
 for key,value in user_0.items():
 	print(f"\nKlucz: {key}")
 	print(f"Wartość: {value}")
