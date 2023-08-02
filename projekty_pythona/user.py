@@ -12,7 +12,6 @@ for key,value in user_0.items():
 	print(f"Wartość: {value}")
 
 # Metoda items() pozwala zwrócić wartość listy par klucz - wartość.
-
 # Inny przykład 
 
 favourite_languages = {
