@@ -1,4 +1,4 @@
-# Iteracja przez słowniki
+#Iteracja przez słowniki
 # Tworzymy losowy słownik
 user_0 = {
 	'username': 'kamil007',
@@ -25,18 +25,15 @@ for name, language in favourite_languages.items():
 	print(f"Ulubionym językiem programowania użytkownika {name.title()} jest {language}.")	
 
 # Iteracja przez same klucze przy użyciu metody keys()
-
 for name in favourite_languages.keys():
 	print(name.title())
 
 # Tak samo zadziała, bez użycia metody keys()
-
 for name in favourite_languages:	
 	print(name.title())
 
 
 # Specjalne użycie słownika
-
 favourite_languages = {
 	'janek': 'python', 
 	'sara': 'c',
@@ -46,7 +43,6 @@ favourite_languages = {
 }
 
 # Tworzymy listę przyjaciół
-
 friends = ['paweł', 'sara']
 
 for name in favourite_languages.keys():
@@ -61,13 +57,11 @@ for name in favourite_languages.keys():
 if 'ela' not in favourite_languages.keys():
  	print("Ela, weź proszę udział w ankiecie!")
 
- # Sortowanie słownika
- 
+# Sortowanie słownika
 for name in sorted(favourite_languages.keys()):
 	print(f"{name.title()}, dziękuję za udział w ankiecie.")
  		
 # Iteracja przez same wartości w słowniku przy użyciu metody values()
-
 for lang in favourite_languages.values():
 	print(lang.title())
 
