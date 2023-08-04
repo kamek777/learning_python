@@ -1,7 +1,6 @@
 import matplotlib.pyplot as plt
 from random_walk import RandomWalk
 
-
 #Przygotowaie danych błądzenia losowego i wyświetlenie wykresu z punktami.
 rw = RandomWalk()
 rw.fill_walk()

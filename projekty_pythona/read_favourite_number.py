@@ -1,5 +1,4 @@
 # Program wyświetlający ulubioną liczbę podaną przez użytkownika w pliku favoutive_number.json
-
 import json
 
 filename = 'favourite_number.json'
