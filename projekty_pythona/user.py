@@ -66,6 +66,5 @@ for lang in favourite_languages.values():
 	print(lang.title())
 
 # Funkcja set() wyświetla tylko unikatowe elementy bez powtarzania:
-
 for lang in set(favourite_languages.values()):
 	print(lang.title())	
