@@ -1,5 +1,4 @@
 # Zapisywanie danych do pustego pliku
-
 filename = 'pliki_tekstowe/programming.txt'
 
 with open(filename, 'a') as file_object:
