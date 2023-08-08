@@ -1,5 +1,4 @@
 # Testowanie klasy 
-
 # Metody asercji oferowane przez moduł unittest:
 # assertEqual(a,b) ---> Sprawdza czy a == b.
 # assertNotEqual(a,b) ---> Sprawdza, czy a != b.
