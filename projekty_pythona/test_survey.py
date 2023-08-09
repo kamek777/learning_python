@@ -1,4 +1,5 @@
 import unittest
+
 from survey import AnonymousSurvey
 
 class TestAnonmyousSurvey(unittest.TestCase):
