@@ -1,5 +1,4 @@
 # Modyfikowanie listy w funkcji
-
 # Tworzymy funkcję.
 # Stymulujemy wydruk poszczególnych projektów, dopóki pozostał jakikolwiek projekt na liście.
 # Każdy wydrukowany model zostaje przeniesiony na listę completed_models.
