@@ -1,5 +1,4 @@
 #Funkcja tworząca silnie z danej liczby
-
 def silnia(n):
     """Tworzymy instancję funkcji silnia."""
     if n>1:
