@@ -1,6 +1,5 @@
 
 import json
-
 # Wczytanie imienia z pliku, o ile wcześniej zostało w nim zapisane.
 # W przeciwnym razie pytamy użytkownika o imię i zapisujemy je w pliku.
 #filename = 'username.json'
