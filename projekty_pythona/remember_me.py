@@ -68,5 +68,6 @@ def greet_user():
     else:
         username = get_new_username()
         print(f"Twoje imię zostało zapisane i będzie używane później, {username}.")
-            
+ 
+#Wywołanie funkcji great_user()            
 greet_user()            
