@@ -7,7 +7,6 @@ pets = ['pies','kot','pies','złota rybka','kot','królik','kot']
 print(pets)
 
 # Usuwamy dany element z listy dopóki nie zniknie całkowicie:
-
 while 'kot' in pets:
     pets.remove('kot') # funkcja remove() usuwa dany element z listy jeden raz
     
