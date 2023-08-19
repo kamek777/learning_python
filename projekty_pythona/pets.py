@@ -1,5 +1,4 @@
 # Usunięcie z listy danego elementu nawet jeśli jest zawarty kilka razy przy pomocy pętli while
-
 # Tworzymy listę zawierającą zwierzętw
 pets = ['pies','kot','pies','złota rybka','kot','królik','kot']
 
