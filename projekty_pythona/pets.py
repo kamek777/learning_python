@@ -12,5 +12,4 @@ while 'kot' in pets:
 
 # Wyświetlamy nowo edytowaną listę bez kota
 print(pets)
-
 # OK
