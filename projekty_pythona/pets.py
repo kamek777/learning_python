@@ -9,7 +9,6 @@ print(pets)
 while 'kot' in pets:
     pets.remove('kot') # funkcja remove() usuwa dany element z listy jeden raz
     
-
 # Wyświetlamy nowo edytowaną listę bez kota
 print(pets)
 # OK
