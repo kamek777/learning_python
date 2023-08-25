@@ -20,7 +20,6 @@ def describe_pet2(animal_type,pet_name):
     
 describe_pet2(animal_type='chomik',pet_name='harry')    
 
-
 # Wartości domyślne w funkcjach
 def describe_pet3(pet_name,animal_type='pies'):
     """ Wyświetla informacje o zwierzęciu z wartością domyślną pies"""
