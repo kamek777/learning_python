@@ -11,7 +11,6 @@ describe_pet('kot','ksawery')
 describe_pet('pies','korneliusz')
 describe_pet('jaszczurka','tomek')    
     
-
 # Argumenty w postaci słów kluczowych 
 def describe_pet2(animal_type,pet_name):
     """ Wyświetla informacje o zwierzęciu"""
