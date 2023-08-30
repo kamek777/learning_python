@@ -7,7 +7,6 @@ def make_pizza(size,*toppings):
         print(f"- {topping}")
         
 # Tworzymy pizzę wywołując funkcje
-
 make_pizza(40,'pepperoni')
 make_pizza(50,'pieczarki','kurczak','zielona papryka','podwójny ser')       
 
