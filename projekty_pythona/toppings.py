@@ -1,3 +1,4 @@
+#Tworzenie przykładowej listy
 requested_toppings = ['pieczarki','boczek','podwójny ser']
 for requested_topping in requested_toppings:
 	print(f"Dodaję {requested_topping}.")
