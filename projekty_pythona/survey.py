@@ -6,7 +6,6 @@
 # assertFalse(x) ---> Sprawdza, czy x przyjmuje wartość False.
 # assertIn(element,lista) ---> Sprawdza, czy element jest na liście.
 # assertNotIn(element,lista) ---> Sprawdza, czy element nie znajduje się na liście.
-
 class AnonymousSurvey():
     """Przechowuje anonimowe odpowiedzi na pytania w ankiecie."""
     
