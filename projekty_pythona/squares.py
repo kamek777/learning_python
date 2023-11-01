@@ -6,5 +6,7 @@ for kwadrat in range(1,11):
 print(kwadraty)	
 
 # II sposób na ten samo kod (listy składane)
+
 kwadraty = [kwadrat**2 for kwadrat in range(1,11)]
+
 print(kwadraty)
