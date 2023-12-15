@@ -15,9 +15,7 @@ if __name__ == "__main__":
     arr = [64, 34, 25, 12, 22, 11, 90]
     
     print("Tablica przed sortowaniem bąbelkowym:", arr)
-    
     bubble_sort(arr)
-    
     print("Tablica po sortowaniu bąbelkowym:", arr)
 
        
